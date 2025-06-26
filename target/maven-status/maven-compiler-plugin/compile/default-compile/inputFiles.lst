@@ -1,0 +1,11 @@
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/HydnaApplication.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/config/CorsConfig.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/controller/UserController.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/controller/VideoController.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/model/User.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/model/Video.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/repository/UserRepository.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/repository/VideoRepository.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/security/JwtFilter.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/security/JwtUtil.java
+/Users/lucascouve/Downloads/hydna_full_project_MODIFIE 2/src/main/java/com/hydna/security/SecurityConfig.java

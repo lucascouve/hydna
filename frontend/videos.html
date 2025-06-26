@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Vidéos - Hydna</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenue sur Hydna 🏊‍♂️</h1>
+    <p id="welcome"></p>
+
+    <div id="videoList">
+      <h2>Vidéos de natation disponibles</h2>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=s1e10o-bet4" target="_blank">Crawl - Débutant</a></li>
+        <li><a href="https://www.youtube.com/watch?v=nb8ir9MVm6A" target="_blank">Brasse - Maîtriser la glisse</a></li>
+        <li><a href="https://www.youtube.com/watch?v=2XmFgN0E-6E" target="_blank">Dos crawlé - Position du corps</a></li>
+        <li><a href="#" target="_blank">Plongeon - Technique de départ</a></li>
+      </ul>
+    </div>
+
+    <button onclick="logout()">Se déconnecter</button>
+  </div>
+
+  <script>
+    const token = localStorage.getItem("token");
+
+    if (!token) {
+      alert("⛔ Vous devez être connecté pour accéder à cette page.");
+      window.location.href = "index.html";
+    } else {
+      document.getElementById("welcome").textContent = "Vous êtes connecté ! Profitez des vidéos.";
+    }
+
+    function logout() {
+      localStorage.removeItem("token");
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>
